@@ -1,1 +1,51 @@
-hello!!!!!!!!!!!!!!
+
+<!DOCTYPE html>
+<html style="height:100%"  >
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>uidd2019_hw1</title>
+    <link href="app.css" rel="stylesheet" type="text/css">
+ </head>
+
+  <body>
+    <div class="pointer"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).mousemove(function(e){
+        $('.pointer').css({left:e.pageX,top:e.pageY});
+    })
+    </script>
+
+
+    <div class="head_pic">
+        <img src="http://i.imgur.com/chQ6Phj.jpg" width="500px">
+      </div>
+   
+    <div id="note">
+    <table width="500px" border"0">
+      <tr>
+        <td>8:00</td>
+        <td><img src="http://i.imgur.com/2npXvHL.png" style="padding:2px;alt="";"></td>
+        <td>RUN<br>Eat breakfast after a kilogram run</td>
+      </tr>      
+      <tr>
+        <td>12:00</td>
+        <td><img src="http://i.imgur.com/2npXvHL.png" style="padding:2px;alt="";"></td>
+        <td>REMIND<br>Remind to drink plenty of water</td>
+      </tr>
+      <tr>
+        <td>17:00</td>
+        <td><img src="http://i.imgur.com/2npXvHL.png" style="padding:2px;alt="";"></td>
+        <td>MEETING<br>Meeting to discuss next week's work</td>
+      </tr>
+      <tr>  
+       <td>20:00</td>
+        <td><img src="http://i.imgur.com/2npXvHL.png" style="padding:2px;alt="";"></td>
+        <td>MESSENGE<br>Send messenge to mom</td>
+      </tr>
+      </table>
+      </div>
+  </body>
+</html>
+  
