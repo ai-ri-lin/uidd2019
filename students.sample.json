@@ -1,0 +1,17 @@
+{
+  "host":[
+    {"id":"000001",
+      "list":[
+        {"hamburger":3,"number":1,"add_meat":0,"add_cheese":0,"add_sauce":"010"},
+        {"hamburger":2,"number":1,"add_meat":0,"add_cheese":1,"add_sauce":"100"}],
+      "store":"東安店","get_time":"10:30"},
+    {"id":"000002",
+      "list":[
+        {"hamburger":1,"number":1,"add_meat":0,"add_cheese":0,"add_sauce":"010"}],
+        "store":"東安店","get_time":"10:40"},
+    {"id":"00045",
+      "list":[
+        {"hamburger":1,"num":1},
+        {"hamburger":1,"num":1}]
+    }],
+    "guest":[{"id":"000003","list":[{"hamburger":2,"number":1,"add_meat":0,"add_cheese":0,"add_sauce":"010"},{"hamburger":1,"number":1,"add_meat":0,"add_cheese":1,"add_sauce":"100"}],"store":"長榮店","get_time":"10:35"},{"id":"000004","list":[{"hamburger":5,"number":1,"add_meat":0,"add_cheese":0,"add_sauce":"010"}],"store":"長榮店","get_time":"10:45"}]}
